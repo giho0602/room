@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escape Room</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
     </header>
     <section class="banner" id="banner">
         <div class="content">
-            <h2>짜릿한 체험, 숨막히는 공포</h2>
+                <span>짜</span><span>릿</span><span>한</span> <span>체</span><span>험</span> <span>숨</span><span>막</span><span>히</span><span>는</span> <span>공</span><span>포</span>
             <p>실사와 흡사한 사실감 넘치는 인테리어와 최신식 기계설비로 흥미진진한 방탈출을 시작해보세요.</p>
             <a href="#contact" class="btn">온라인 예약</a>
         </div>
@@ -34,11 +35,11 @@
                 <p>"이스케이프 룸"은 리얼 방 탈출을 넘어 새로운 세계를 추구하는 방 탈출 게임입니다.
                     주어진 시간 동안 여러분이 경험해 보지 못한 또는 경험해보고 싶었던 새로운 세상이 펼쳐집니다.
                     사실감 넘치는 인테리어와 신기하고 신선한 문제와 트릭 장치 그리고 전문작가의 흥미진진한 스토리까지!
-                    최고의 방 탈출 카페 "제로월드"에서 당신이 꿈꿔왔던 주인공이 되는 최고의 경험을 만나보세요.</p>
+                    최고의 방 탈출 카페 "이스케이프 룸"에서 당신이 꿈꿔왔던 주인공이 되는 최고의 경험을 만나보세요.</p>
             </div>
             <div class="col50">
                 <div class="imgBx">
-                    <img src="image/sec2-img.jpg" alt="">
+                    <img src="image/sec2-img.jpg" data-aos="zoom-in" data-aos-duration="2000">
                 </div>
             </div>
         </div>
@@ -214,6 +215,12 @@
     <div class="copyrightText">
         <p>Copyright 2020 <a href="#">Escape Room</a>. All Right Reserved</p>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
          const header = document.querySelector('header');
